@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Main.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="header-text">My Portfolio</div>
+            <button class="contact-button" onclick="openModal()">Contact Me</button>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div class="sidebar">
+            <img src="Picture/Profile.jpg" alt="Profile Photo" class="profile-photo">
+            <h2>Desiree Ann Sebial</h2>
+            <div class="skill">
+                <label for="skill1">Content Creation</label>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label for="skill2">Social Media Management</label>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label for="skill3">Digital Marketing</label>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label for="skill4">Programming</label>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio">
+            <div class="tabs">
+                <button class="tab-link active" data-target="statement">About Me</button>
+                <button class="tab-link" data-target="information">Services Offered</button>
+                <button class="tab-link" data-target="tools">Tools Proficiency</button>
+                <button class="tab-link" data-target="works">My Work Samples</button>
+                <button class="tab-link" data-target="certificates">Skills and Certificates</button>
+            </div>
+
+            <div class="content-container">
+                <div class="content statement active">
+                    <div class="dropdown-nav">
+                        <button class="dropdown-btn active" data-where="dropdown1">Introduction</button>
+                        <button class="dropdown-btn" data-where="dropdown2">Education</button>
+                        <button class="dropdown-btn" data-where="dropdown3">Experience</button>
+                    </div>
+                    <div class="dropdown-content-container">
+                        <div id="dropdown1" class="dropdown-content active">
+                            <div class="introduction">
+                                <h1>Hello, I’m <span class="highlight">Desiree Ann Sebial</span></h1>
+                                <p class="intro-description">
+                                    A dynamic freelancer with a knack for all things digital. Specializing in IT, digital marketing, content creation, and social media management, I bring a fresh perspective and a passion for success to every project.
+                                </p>
+                                <p class="intro-description">
+                                    With a keen eye for creativity and a deep understanding of the latest technological advancements, I excel at crafting compelling online experiences that make a lasting impression. Whether it's designing visually stunning websites or developing engaging social media campaigns, I possess the skills and expertise to elevate your digital presence to new heights. Let's forge a connection and collaborate on creating something truly extraordinary.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="dropdown2" class="dropdown-content">
+                            <div class="education">
+                                <h1>Pursuing my <span class="highlight">Bachelor's Degree in Information Technology</span></h1>
+                                    <p class="intro-description">
+                                        I have consistently excelled in my studies, maintaining an exceptional GPA of 97%. My dedication and hard work have enabled me to demonstrate proficiency in a range of computer skills. Throughout my degree program, I have gained extensive expertise in programming languages such as Java, HTML, CSS, JavaScript, and C#. Additionally, I have acquired practical experience in managing databases using SQL.
+                                    </p>
+                                    <p class="intro-description">
+                                        I also actively seek out opportunities for continuous learning and professional development. Attending webinars has been an integral part of my growth journey, allowing me to expand my knowledge in areas such as digital marketing, social media management, and data entry. By staying abreast of the latest advancements, I ensure that I can deliver innovative solutions and strategies that drive tangible results.
+                                    </p>
+                            </div>
+                        </div>
+                        <div id="dropdown3" class="dropdown-content">
+                            <div class="education">
+                                <h1>Sales Associate</h1>
+                                    <p class="intro-description">
+                                        I was a Sales Associate at Family Owned Micro Retail FMGC Store from 2009 to 2020. In this position, I cultivated advanced customer service and sales skills, managed daily inventory and transactions, and efficiently handled customer inquiries and payment processes. This role further enhanced my problem-solving skills, fostering trust and customer satisfaction.
+                                    </p>
+                                        <h1>Freelance Web Developer</h1>
+                                        <p class="intro-description">
+                                            From April to July 2024, I served as a Website Developer at Jhunsen Trip and Training Services. During this period, I enhanced my problem-solving skills, persistence, and attention to detail by creating a hard-coded website.
+                                        </p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content information">
+                    <div class="dropdown-nav">
+                        <button class="dropdown-btn active" data-where="dropdown1">Content Creation</button>
+                        <button class="dropdown-btn" data-where="dropdown2">Social Media Management</button>
+                        <button class="dropdown-btn" data-where="dropdown3">Digital Marketing</button>
+                        <button class="dropdown-btn" data-where="dropdown4">Administrative Work</button>
+                        <button class="dropdown-btn" data-where="dropdown5">Programming</button>
+                    </div>
+                    <div class="dropdown-content-container">
+                        <div id="dropdown1" class="dropdown-content active">
+                            <div class="services">
+                                <h1>Here are some of the services I offer as a <span class="highlight">Graphic and Video Creator</span></h1>
+                                    <p class="intro-description"> • Canva Designs (Worksheets, Handbooks, Thumbnail, Social Media Posts, and more) </p>
+                                    <p class="intro-description"> • Graphic and Video Creation </p>
+                                    <p class="intro-description"> • Graphic Designing (Flyer, Facebook Cover, YouTube Thumbnail) </p>
+                                    <p class="intro-description"> • Writing Custom Captions for Social Media and Hashtag Research </p>
+                                    <p class="intro-description"> • Workshop and Ebook Designs </p>
+                                    <p class="intro-description"> • Video and Podcast Editing </p>
+                                    <p class="intro-description"> • Workbook Designing </p>
+                            </div>
+                        </div>
+                        <div id="dropdown2" class="dropdown-content">
+                            <div class="services">
+                                <h1>Here are some of the services I offer as a <span class="highlight">Social Media Manager</span></h1>
+                                    <p class="intro-description"> • Social Media Management and Scheduling </p>
+                                    <p class="intro-description"> • Instagram DM Outreach </p>
+                                    <p class="intro-description"> • Writing Custom Captions and Hashtag Research </p>
+                                    <p class="intro-description"> • Increasing Instagram, LinkedIn, Facebook Page followers </p>
+                                    <p class="intro-description"> • Facebook Group Engagement </p>
+                                    <p class="intro-description"> • Facebook and Instagram Ads </p>
+                                    <p class="intro-description"> • Promotion of Website on Social Media Platforms </p>
+                            </div>
+                        </div>
+                        <div id="dropdown3" class="dropdown-content">
+                            <div class="services">
+                                <h1>Here are some of the services I offer for <span class="highlight">Digital Marketing</span></h1>
+                                    <p class="intro-description"> • Email and LinkedIn Lead Generation </p>
+                                    <p class="intro-description"> • Email Sequences and Automation Set Up </p>
+                                    <p class="intro-description"> • Lead Magnet Creation plus email campaigns </p>
+                                    <p class="intro-description"> • Digital Marketing </p>
+                                    <p class="intro-description"> • Email Marketing </p>
+                                    <p class="intro-description"> • Search Engine Optimization </p>
+                                    <p class="intro-description"> • Optimizing Blog Posts for SEO </p>
+                            </div>
+                        </div>
+                        <div id="dropdown4" class="dropdown-content">
+                            <div class="services">
+                                <h1>Here  are some of the services I offer for <span class="highlight">Administrative Works</h1>
+                                    <p class="intro-description"> • Email Management </p>
+                                    <p class="intro-description"> • Calendar Management </p>
+                                    <p class="intro-description"> • Project Management </p>
+                                    <p class="intro-description"> • Data Entry </p>
+                                    <p class="intro-description"> • Research </p>
+                                    <p class="intro-description"> • Data Collection </p>
+                                    <p class="intro-description"> • Bookkeeping </p>
+                            </div> 
+                        </div>
+                        <div id="dropdown5" class="dropdown-content">
+                            <div class="services">
+                                <h1>Here are some of the services I offer as a <span class="highlight">Programmer</span></h1>
+                                    <p class="intro-description"> • Hardcoded Web Development</p>
+                                    <p class="intro-description"> • Hardcoded Mobile Application Development </p>
+                                    <p class="intro-description"> • Website Hosting and Maintenance </p>
+                                    <p class="intro-description"> • Creating and Managing Landing Pages </p>
+                                    <p class="intro-description"> • Capstone Helper </p>
+                                    <p class="intro-description"> • School Assignments related to Java, C#, Python. </p>
+                                    <p class="intro-description"> • Programming Languages: Java, C#, Python, HTML, CSS, JavaScript, and PHP </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content tools">
+                    <div class="dropdown-nav">
+                        <button class="dropdown-btn active" data-where="dropdown1">Content Creation</button>
+                        <button class="dropdown-btn" data-where="dropdown2">Social Media Management</button>
+                        <button class="dropdown-btn" data-where="dropdown3">Digital Marketing</button>
+                        <button class="dropdown-btn" data-where="dropdown4">Administrative Work</button>
+                        <button class="dropdown-btn" data-where="dropdown5">Programming</button>
+                    </div>
+                    <div class="dropdown-content-container">
+                        <div id="dropdown1" class="dropdown-content active">
+                            <div class="tools">
+                                <h1>Here are the tools I use as a <span class="highlight">Graphic and Video Creator</span></h1>
+                                        <h2> Graphic Designing: </h2>
+                                        <p class="intro-description">• Canva [Proficiency: ☆☆☆☆☆]</p>
+                                        <p class="intro-description">• Adobe Illustrator [Proficiency: ☆☆☆]</p>
+                                        <p class="intro-description">• Adobe Photoshop [Proficiency: ☆☆☆]</p>
+                                        <h2> Video Editing: </h2>
+                                        <p class="intro-description">• Canva [Proficiency: ☆☆☆☆☆]</p>
+                                        <p class="intro-description">• CapCut [Proficiency: ☆☆☆☆☆]</p>
+                                        <p class="intro-description">• Filmora [Proficiency: ☆☆☆☆]</p>
+                            </div>
+                        </div>
+                        <div id="dropdown2" class="dropdown-content">
+                            <div class="tools">
+                                <h1>Here are the tools I use as a <span class="highlight">Social Media Manager</span></h1>
+                                    <h2> Content Creation: </h2>
+                                    <p class="intro-description">• Canva [Proficiency: ☆☆☆☆☆]</p>
+                                    <h2> Post Scheduling: </h2>
+                                    <p class="intro-description">• Later [Proficiency: ☆☆☆☆☆]</p>
+                                    <p class="intro-description">• Buffer [Proficiency: ☆☆☆☆]</p>
+                                    <h2> Project Management: </h2>
+                                    <p class="intro-description">• Trello [Proficiency: ☆☆☆☆☆]</p>
+                                    <p class="intro-description">• Asana [Proficiency: ☆☆☆]</p>
+                                    <p class="intro-description">• Notion [Proficiency: ☆☆☆☆]</p>
+                            </div>
+                        </div>
+                        <div id="dropdown3" class="dropdown-content">
+                            <div class="tools">
+                                <h1>Here are the tools I use for <span class="highlight">Digital Marketing</span></h1>
+                                    <h2>  Analysis: </h2>
+                                    <p class="intro-description">• Hootsuite [Proficiency: ☆☆☆☆]</p>
+                                    <p class="intro-description">• Hubspot [Proficiency: ☆☆☆☆]</p>
+                                    <p class="intro-description">• Google Analytics [Proficiency: ☆☆☆☆]</p>
+                                    <p class="intro-description">• Hootsuite [Proficiency: ☆☆☆☆]</p>
+                            </div>
+                        </div>
+                        <div id="dropdown4" class="dropdown-content">
+                            <div class="tools">
+                                <h1>Here are the tools I use for <span class="highlight">Administrative Works</span></h1>
+                                    <h2>  Calendar Management: </h2>
+                                    <p class="intro-description">• Google Calendar [Proficiency: ☆☆☆☆]</p>
+                                    <p class="intro-description">• Microsoft Outlook [Proficiency: ☆☆☆☆☆]</p>
+                                    <h2>  Data Entry: </h2>
+                                    <p class="intro-description">• Microsoft Excel [Proficiency: ☆☆☆☆]</p>
+                                    <p class="intro-description">• Google Sheets [Proficiency: ☆☆☆☆☆]</p>
+                                    <h2>  Email Management:  </h2>
+                                    <p class="intro-description">• Gmail [Proficiency: ☆☆☆☆☆]</p>
+                                    <p class="intro-description">• Outlook [Proficiency: ☆☆☆☆]</p>
+                                    <h2>  Bookkeeping:  </h2>
+                                    <p class="intro-description">• Zoho Invoice [Proficiency: ☆☆☆☆]</p>
+                                    <p class="intro-description">• Wave [Proficiency: ☆☆☆☆☆]</p>
+                            </div> 
+                        </div>
+                        <div id="dropdown5" class="dropdown-content">
+                            <div class="tools">
+                                <h1>Here are the tools I use as a <span class="highlight">Programmer</span></h1>
+                                    <h2>  Programming tools: </h2>
+                                    <p class="intro-description">• Android Studio [Proficiency: ☆☆☆☆]</p>
+                                    <p class="intro-description">• Visual Studio Code [Proficiency: ☆☆☆☆☆]</p>
+                                    <p class="intro-description">• Netbeans [Proficiency: ☆☆☆☆]</p>
+                                    <p class="intro-description">• Visual Studio Code 2022 [Proficiency: ☆☆☆☆☆]</p>
+                                    <p class="intro-description">• Unity [Proficiency: ☆☆☆☆]</p>
+                                    <p class="intro-description">• Github [Proficiency: ☆☆☆☆]</p>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="content works">
+                    <div class="dropdown-nav">
+                        <button class="dropdown-btn active" data-where="dropdown1">Graphics</button>
+                        <button class="dropdown-btn" data-where="dropdown2">Videos</button>
+                        <button class="dropdown-btn" data-where="dropdown3">Contents</button>
+                    </div>
+                    <div class="dropdown-content-container">
+                        <div id="dropdown1" class="dropdown-content active">
+                            <p class="centered-link">
+                                <a href="https://drive.google.com/drive/folders/1kei0UeHwEroMNjaVutErlrVtfy0_jZRa?usp=sharing" target="_blank">Want to see more of my Graphics Works?</a>
+                            </p>
+                            <p class="centered-link">
+                                <a href="https://drive.google.com/drive/folders/1HNUC6DKuS3iU-YLAUhb_lS3-KdCoKC4t?usp=sharing" target="_blank">Want to see how I work with clients?</a>
+                            </p>                                
+                            <aside class="carousel">
+                                <div class="carousel__wrapper">
+                                    <div class="item" id="slide-1"><img src="Picture/Graphics/1.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-2"><img src="Picture/Graphics/2.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-3"><img src="Picture/Graphics/3.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-4"><img src="Picture/Graphics/4.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-5"><img src="Picture/Graphics/5.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-6"><img src="Picture/Graphics/6 (1).jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-7"><img src="Picture/Graphics/8 (1).jpg" alt="" width="418" height="418"></div>
+                                </div>
+                            </aside>
+                        </div>
+                        <div id="dropdown2" class="dropdown-content">
+                            <p class="centered-link">
+                                <a href="https://drive.google.com/drive/folders/1_7sV58ukRPaP8hkM5sIBW-ns8aZT3Tf9?usp=sharing" target="_blank">Want to see more of my Video Works?</a>
+                            </p>
+                            <p class="centered-link">
+                                <a href="https://drive.google.com/drive/folders/1HNUC6DKuS3iU-YLAUhb_lS3-KdCoKC4t?usp=sharing" target="_blank">Want to see how I work with clients?</a>
+                            </p>
+                            <div class="video-container">
+                                <video src="Video/1.mp4" controls autoplay loop class="centered-video"></video>
+                            </div>
+                        </div>                        
+                        <div id="dropdown3" class="dropdown-content">
+                            <p class="centered-link">
+                                <a href="https://drive.google.com/drive/folders/1tzbhSP95MFLeRL-MCmWe_hUazT-x7vhR?usp=sharing" target="_blank">Want to see more of my Content Works?</a>
+                            </p> 
+                            <p class="centered-link">
+                                <a href="https://drive.google.com/drive/folders/1HNUC6DKuS3iU-YLAUhb_lS3-KdCoKC4t?usp=sharing" target="_blank">Want to see how I work with clients?</a>
+                            </p>                              
+                            <aside class="carousel">
+                                <div class="carousel__wrapper">
+                                    <div class="item" id="slide-1"><img src="Picture/Content/1.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-2"><img src="Picture/Content/2.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-3"><img src="Picture/Content/3.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-4"><img src="Picture/Content/4.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-5"><img src="Picture/Content/5.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-6"><img src="Picture/Content/6.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-7"><img src="Picture/Content/7.jpg" alt="" width="418" height="418"></div>
+                                </div>
+                            </aside>
+                        </div>
+                        <div id="dropdown4" class="dropdown-content">
+                            <!-Insert vid here Here, make it centered and big enough to occupy the content place size is 1920x1080 but make it fit the content place––>
+                        </div>
+                    </div>
+                </div>
+                <div class="content certificates">
+                    <div class="dropdown-nav">
+                            <button class="dropdown-btn active" data-where="dropdown1">Virtual Assitant</button>
+                            <button class="dropdown-btn" data-where="dropdown2">Information Technology</button>
+                    </div>
+                    <div class="dropdown-content-container">
+                        <div id="dropdown1" class="dropdown-content active">
+                            <p class="centered-link">
+                                <a href="https://drive.google.com/drive/folders/1-jFn3rftXtiWBTXgL9rCtAQDhAjbc5_p?usp=sharing" target="_blank">See more of my VA related Certificates</a>
+                            </p>     
+                            <aside class="carousel">
+                                <div class="carousel__wrapper">
+                                    <div class="item" id="slide-1"><img src="Certificates/VA/Virtual Assistant Certification (1).jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-2"><img src="Certificates/VA/Excel Certificate.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-3"><img src="Certificates/VA/SEO and Content Certificate.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-4"><img src="Certificates/VA/Social Media Management Certificate.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-5"><img src="Certificates/VA/Video Marketing Certificate.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-6"><img src="Certificates/VA/SEO Certificate.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-7"><img src="Certificates/VA/Digital Marketing Certificate 2.jpg" alt="" width="418" height="418"></div>
+                                </div>
+                            </aside>
+                        </div>
+                        <div id="dropdown2" class="dropdown-content">
+                            <p class="centered-link">
+                                <a href="https://drive.google.com/drive/folders/1eGeBNZvIIFfPHhRINRTTeq1ndY7zDfa9?usp=sharing" target="_blank">See more of my IT related Certificates</a>
+                            </p>     
+                            <aside class="carousel">
+                                <div class="carousel__wrapper">
+                                    <div class="item" id="slide-1"><img src="Certificates/IT/Certifcate - 1. Principles of Web Development and Introduction to HTML_page-0001.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-2"><img src="Certificates/IT/Certificate - 2. Using HTML and CSS to Design a Website_page-0001.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-3"><img src="Certificates/IT/Certificate - 1. Introduction to Data Privacy_page-0001.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-4"><img src="Certificates/IT/Certificate - 2. Data Privacy_page-0001.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-5"><img src="Certificates/IT/Java Certificate_page-0001.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-6"><img src="Certificates/IT/Sys Ads Certificate_page-0001.jpg" alt="" width="418" height="418"></div>
+                                    <div class="item" id="slide-7"><img src="Certificates/IT/SKL24032017109384555637_page-0001.jpg" alt="" width="418" height="418"></div>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Contact Me</h2>
+            <p>Email: sebial.desireeann@gmail.com</p>
+            <p>Facebook: <a href="https://www.facebook.com/profile.php?id=61563611690378" target="_blank">Desiree Sebial</a></p>
+            <p>OnlineJobs.ph:  <a href="https://www.onlinejobs.ph/jobseekers/info/3128127" target="_blank">Desiree Sebial</a></p>
+        </div>
+    </div>
+
+    <div id="ripple"></div>
+
+    <script src="Main.js"></script>
+</body>
+</html>
